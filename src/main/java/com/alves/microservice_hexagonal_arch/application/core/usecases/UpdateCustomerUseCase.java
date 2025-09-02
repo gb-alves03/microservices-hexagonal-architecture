@@ -5,7 +5,6 @@ import com.alves.microservice_hexagonal_arch.application.ports.in.FindCustomerBy
 import com.alves.microservice_hexagonal_arch.application.ports.in.UpdateCustomerInputPort;
 import com.alves.microservice_hexagonal_arch.application.ports.out.FindAddressByZipCodeOutputPort;
 import com.alves.microservice_hexagonal_arch.application.ports.out.UpdateCustomerOutputPort;
-import org.springframework.stereotype.Component;
 
 
 public class UpdateCustomerUseCase implements UpdateCustomerInputPort {
