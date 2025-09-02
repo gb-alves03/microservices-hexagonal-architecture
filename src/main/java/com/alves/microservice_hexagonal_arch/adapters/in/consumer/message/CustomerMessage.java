@@ -1,4 +1,4 @@
-package com.alves.microservice_hexagonal_arch.adapters.in.consumer;
+package com.alves.microservice_hexagonal_arch.adapters.in.consumer.message;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

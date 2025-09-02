@@ -1,6 +1,6 @@
 package com.alves.microservice_hexagonal_arch.config;
 
-import com.alves.microservice_hexagonal_arch.adapters.in.consumer.CustomerMessage;
+import com.alves.microservice_hexagonal_arch.adapters.in.consumer.message.CustomerMessage;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.apache.kafka.common.serialization.StringSerializer;
 import org.springframework.context.annotation.Bean;
