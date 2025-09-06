@@ -7,8 +7,4 @@ alves:
 spring:
   data:
     mongodb:
-      host: localhost
-      port: 27017
-      authentication-database: admin
-      username: root
-      database: hexagonal-arch
+      uri: mongodb://root:example@localhost:27017/hexagonal-arch?authSource=admin
