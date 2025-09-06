@@ -2,7 +2,9 @@ package com.alves.microservice_hexagonal_arch.adapters.out;
 
 import com.alves.microservice_hexagonal_arch.application.ports.out.SendCpfValidationOutputPort;
 import org.springframework.kafka.core.KafkaTemplate;
+import org.springframework.stereotype.Component;
 
+@Component
 public class SendCpfValidationAdapter implements SendCpfValidationOutputPort {
 
     private final KafkaTemplate<String, String> kafkaTemplate;
